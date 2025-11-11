@@ -14,7 +14,7 @@ Make sure you have the following tools available:
 
 🚀 Usage <br>
 1️⃣ Clone or download the script<br>
-<code> git clone https://github.com/<yourusername>/fix-pacman.git</code> <br>
+<code> git clone https://github.com/lypeInvictvs/fix-pacman.git</code> <br>
 <code> cd fix-pacman </code> <br>
 2️⃣ Make it executable <br>
 <code> chmod +x fix-pacman.sh</code> <br>
