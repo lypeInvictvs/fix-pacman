@@ -27,4 +27,4 @@ Download pacman-static from the official maintainer’s repository
 Verify the GPG signature
 Automatically import the missing GPG key if necessary
 Move pacman-static to /usr/local/bin/
-Reinstall libxml2, icu, and pacman </pre>
+</pre>
