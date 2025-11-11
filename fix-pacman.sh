@@ -54,12 +54,6 @@ if ! command -v pacman-static &>/dev/null; then
   exit 1
 fi
 
-# === FIX CORE PACKAGES ===
-echo "🔧 Reinstalling essential packages (libxml2, icu, pacman)..."
-sudo pacman-static -Sy --noconfirm libxml2 icu pacman || {
-  echo "⚠️  Warning: some packages could not be reinstalled. Please check manually."
-}
-
 # === DONE ===
 echo
 echo "🎉 pacman-static has been successfully installed and executed!"
